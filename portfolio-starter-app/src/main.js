@@ -1,5 +1,6 @@
 // Import styles
-import './style.css'
+import './style.css' with { type: 'css' };
+document.adoptedStyleSheets.push(styles);
 
 // Import render functions
 import { renderGoals } from './render.js'
