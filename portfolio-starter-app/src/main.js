@@ -1,5 +1,5 @@
 // Import styles
-import './style.css' with { type: 'css' };
+import styles from './style.css' with { type: 'css' };
 document.adoptedStyleSheets.push(styles);
 
 // Import render functions
